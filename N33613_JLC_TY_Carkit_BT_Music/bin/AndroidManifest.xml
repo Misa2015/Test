@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ls.bt.music"
+    android:versionCode="7"
+    android:versionName="1.0.6" >
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".BTMusicMainActivity"
+            android:icon="@drawable/phone_music"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             <activity
+            android:name="com.bt.music.BTMusicMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <receiver android:name="com.ls.bt.utils.BtBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.bt.ACTION_BT_CONNECTION_CHANGE" />
+                <action android:name="com.bt.ACTION_BT_INCOMING_CALL" />
+                <action android:name="com.bt.ACTION_BT_OUTGOING_NUMBER" />
+                <action android:name="com.bt.ACTION_BT_END_CALL" />
+                <action android:name="com.bt.ACTION_BT_BEGIN_CALL_ONLINE" />
+                <action android:name="com.bt.ACTION_BT_OUTGOING_CALL" />
+                <action android:name="action_local_notification_start"/>
+                <action android:name="action_local_notification_stop"/>
+                <action android:name="ilincar.audio.focus.open"/>
+                <action android:name="ilincar.audio.focus.close"/>
+                <action android:name="ilincar.bthost.connected"/>
+                <action android:name="ilincar.bthost.disconnected"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+		        <category android:name="android.intent.category.LAUNCHER" /> 
+            </intent-filter>
+        </receiver>
+         
+         <receiver android:name="com.ls.bt.music.BootReceiver">
+		    <intent-filter >
+		        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+		        <category android:name="android.intent.category.LAUNCHER" /> 
+		    </intent-filter>
+		</receiver>
+		
+		
+        <service android:name="com.ls.bt.utils.BtMusicService"
+            android:enabled="true">
+            <intent-filter >
+                <action android:name="com.ls.bt.utils.BtMusicService"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<!--     <item 
+        android:id="@+id/connectBt"
+        android:title="@string/connect"
+        android:icon="@drawable/connect_bt"
+        android:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/duanBt"
+        android:title="@string/disconnect"
+        android:icon="@drawable/duan"
+        android:showAsAction="ifRoom|withText"/> -->
+<item
+        android:id="@+id/delBt"
+        android:title="@string/del"
+        android:icon="@drawable/del_bt"
+        android:showAsAction="ifRoom|withText"/>
+    
+</menu>

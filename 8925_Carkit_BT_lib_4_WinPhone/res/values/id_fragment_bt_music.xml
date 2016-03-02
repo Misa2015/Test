@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="music_ibt_play"/>
+    <item type="id" name="bt_status"/>
+    <item type="id" name="music_ibt_pre"/>
+    <item type="id" name="music_ibt_next"/>
+</resources>

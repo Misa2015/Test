@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="ibt_one"/>
+    <item type="id" name="ibt_two"/>
+    <item type="id" name="ibt_three"/>
+    <item type="id" name="ibt_four"/>
+    <item type="id" name="ibt_five"/>
+    <item type="id" name="ibt_six"/>
+    <item type="id" name="ibt_seven"/>
+    <item type="id" name="ibt_eight"/>
+    <item type="id" name="ibt_nine"/>
+    <item type="id" name="ibt_xing"/>
+    <item type="id" name="ibt_zero"/>
+    <item type="id" name="ibt_jing"/>
+    <item type="id" name="call_phone"/>
+    <item type="id" name="del_num"/>
+    <item type="id" name="tv_show_num"/>
+</resources>

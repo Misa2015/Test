@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="music_ibt_play"/>
+    <item type="id" name="bt_status"/>
+    <item type="id" name="music_ibt_pre"/>
+    <item type="id" name="music_ibt_next"/>
+    <item type="id" name="delBt"/>
+    <item type="id" name="menu_call_detail"/>
+    <item type="id" name="menu_search"/>
+    <item type="id" name="music_frame_layout"/>
+    <item type="id" name="music_ibt_stop"/>
+</resources>

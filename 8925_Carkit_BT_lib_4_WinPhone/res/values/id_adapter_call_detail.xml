@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="bluetooth_call_name"/>
+    <item type="id" name="bluetooth_call_number"/>
+    <item type="id" name="bluetooth_call_type"/>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="incoming_phone_number">25sp</dimen>
+    <dimen name="dial_num_line_bottom">15dp</dimen>
+    <dimen name="incoming_bottom_button_width">45dip</dimen>
+
+</resources>

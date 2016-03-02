@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">  
+    <scale     
+    android:interpolator= "@android:anim/decelerate_interpolator"         
+    android:fromXScale="0.7"     
+    android:toXScale="1.0"     
+    android:fromYScale="0.7"     
+    android:toYScale="1.0"     
+    android:pivotX="50%"     
+    android:pivotY="50%"     
+    android:startOffset="0"     
+    android:duration="500"    
+    android:repeatCount="infinite"     
+    android:repeatMode="reverse"  />
+<!--     <translate   
+    android:fromXDelta="400"   
+    android:toXDelta="420"   
+    android:fromYDelta="240"   
+    android:toYDelta="260"   
+    android:duration="1000" />  -->
+</set>  

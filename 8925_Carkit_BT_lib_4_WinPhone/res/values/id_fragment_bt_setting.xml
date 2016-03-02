@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="setting_password_edit"/>
+    <item type="id" name="setting_edit"/>
+    <item type="id" name="autoconnect_ibt_setting"/>
+    <item type="id" name="autolistenr_ibt_setting"/>
+    <item type="id" name="username_tv_setting"/>
+    <item type="id" name="password_tv_setting"/>
+    <item type="id" name="setting_bt_devname"/>
+    <item type="id" name="setting_bt_devpwd"/>
+    <item type="id" name="tv_auto_connect"/>
+    <item type="id" name="tv_auto_accept"/>
+</resources>

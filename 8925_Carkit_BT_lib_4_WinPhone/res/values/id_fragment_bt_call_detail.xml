@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="listview_call_out"/>
+    <item type="id" name="listview_received"/>
+    <item type="id" name="listview_missed"/>
+    <item type="drawable" name="ico_1139_jilu_qudian"/>
+    <item type="drawable" name="ico_1138_jilu_laidian"/>
+    <item type="drawable" name="ico_1140_jilu_weijie"/>
+    
+    <item type="drawable" name="icon_bochu"/>
+    <item type="drawable" name="icon_laidian"/>
+    <item type="drawable" name="icon_weijie"/>
+    
+    <item type="id" name="action_called"/>
+    <item type="id" name="action_calling"/>
+    <item type="id" name="atcion_call_missed"/>
+    
+      <item type="id" name="iv_call_loading"/>
+    <item type="id" name="iv_call_loading_bg"/>
+</resources>

@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+	<ImageView 
+	    android:id="@+id/actionBar_incom1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/btn_dial_num_normal"/>
+<!-- 	<TextView 
+	    android:id="@+id/tv_avtionbar1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginRight="50dp"
+	    android:text="@string/called"/> -->
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="bt_contact_listview"/>
+    <item type="id" name="menu_search"/>
+    <item type="id" name="et_search"/>
+    <item type="id" name="imageview_loading"/>
+    <item type="id" name="imageView_loading_bg"/>
+    <item type="id" name="pgsBar"/>
+    <item type="id" name="bt_pgs"/>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="imageview_mapping" type="id"/>
+    <item name="main_imageView" type="id"/>
+    <item name="matchLinearLayout" type="id"/>
+    <item name="map_username" type="id"/>
+    <item name="map_password" type="id"/>
+    <item name="tv_match_device_name" type="id"/>
+    <item name="tv_match_device_password" type="id"/>
+    <item name="main_imageView_to" type="id"/>
+    <item name="main_imageView_phone" type="id"/>
+    
+</resources>

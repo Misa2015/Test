@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ls.bt.music"
+    android:versionCode="16"
+    android:versionName="1.6" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.ls.bt.music.AbsBTMusicActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ls.android.music.ui.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+         <receiver
+            android:name="com.ls.bt.music.BluetoothStatus12"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.bt.ACTION_BT_MUSIC_PLAY" />
+                <action android:name="com.bt.ACTION_BT_MUSIC_PAUSE" />
+            </intent-filter>
+        </receiver>
+        
+        <service android:name="com.ls.bt.utils.BtMusicService"
+            android:enabled="true">
+            <intent-filter >
+                <action android:name="com.ls.bt.utils.BtMusicService"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

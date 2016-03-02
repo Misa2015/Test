@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ls.android.phone"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.ls.android.bt.BTApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.ls.android.bt.BTMainActivity"
+            android:theme="@android:style/Theme"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ls.android.bt.BTMusicMainActivity"
+            android:configChanges="locale"
+            android:label="@string/bt_music_app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+<!--             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+
+        <receiver android:name="com.ls.android.bt.BtBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.bt.ACTION_BT_STATE_CHANGE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.bt.ACTION_BT_CONNECTION_CHANGE" />
+                <action android:name="com.bt.ACTION_BT_INCOMING_CALL" />
+                <action android:name="com.bt.ACTION_BT_OUTGOING_NUMBER" />
+                <action android:name="com.bt.ACTION_BT_END_CALL" />
+                <action android:name="com.bt.ACTION_BT_BEGIN_CALL_ONLINE" />
+                <action android:name="com.bt.ACTION_BT_OUTGOING_CALL" />
+                <action android:name="com.bt.ACTION_BT_INCOMING_NUMBER" />
+                <action android:name="cn.yunzhisheng.intent.action.custom.order.contact" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.ls.bt.music.BluetoothStatus"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.bt.ACTION_BT_MUSIC_PLAY" />
+                <action android:name="com.bt.ACTION_BT_MUSIC_PAUSE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.ls.bt.service.AbsBTContactService"
+            android:enabled="true">
+            <intent-filter >
+                <action android:name="com.bt.BTContactService"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

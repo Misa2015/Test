@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 播放暂停按钮 -->
+    <item type="id" name="btn_pause"/>
+    <!-- 下一曲按钮 -->
+    <item type="id" name="btn_next"/>
+    <!-- 上一曲按钮 -->
+    <item type="id" name="btn_previous"/>
+    <!-- 播放控制按钮容器 -->
+    <item type="id" name="play_control_panel"/>
+    
+    <!-- 打开蓝牙开关按钮 -->
+    <item type="id" name="btn_open_bluetooth"/>
+    <!-- 蓝牙开关容器 -->
+    <item type="id" name="open_panel"/>
+    <!-- 蓝牙状态说明文字 -->
+    <item type="id" name="tv_bluetooth_status"/>
+    <!-- 蓝牙状态容器 -->
+    <item type="id" name="info_panel"/>
+    
+    <!-- home按键 -->
+    <item type="id" name="btn_home"/>
+    
+    <!-- 蓝牙已打开图片 -->
+    <item type="drawable" name="bluetooth_open"/>
+</resources>

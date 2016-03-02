@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ls.android.phone"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.ls.bt.utils.ButtonGridLayout
+        android:id="@+id/dial_num_gridlayout"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="180dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="5dp"                                                                                                                                                                                                               
+        android:paddingBottom="5dp"
+        android:background="@drawable/pop_keyboard_bg"
+        android:visibility="visible" >
+       <!--  <ImageButton
+            android:id="@+id/add"
+            android:visibility="gone"
+            style="@style/key_layout_button"/> -->
+        <ImageButton
+            android:id="@+id/one"
+            style="@style/key_layout_button"
+            android:background="@drawable/one_selector" />
+
+        <ImageButton
+            android:id="@+id/two"
+            style="@style/key_layout_button"
+            android:background="@drawable/two_selector" />
+
+        <ImageButton
+            android:id="@+id/three"
+            style="@style/key_layout_button"
+            android:background="@drawable/three_selector" />
+        <ImageButton
+            android:id="@+id/star"
+            style="@style/key_layout_button"
+            android:background="@drawable/xing_selector" />
+        <ImageButton
+            android:id="@+id/four"
+            style="@style/key_layout_button"
+            android:background="@drawable/four_selector" />
+
+        <ImageButton
+            android:id="@+id/five"
+            style="@style/key_layout_button"
+            android:background="@drawable/five_selector" />
+
+        <ImageButton
+            android:id="@+id/six"
+            style="@style/key_layout_button"
+            android:background="@drawable/six_selector" />
+        <ImageButton
+            android:id="@+id/zero"
+            style="@style/key_layout_button"
+            android:background="@drawable/zero_selector" />
+        <ImageButton
+            android:id="@+id/seven"
+            style="@style/key_layout_button"
+            android:background="@drawable/seven_selector" />
+
+        <ImageButton
+            android:id="@+id/eight"
+            style="@style/key_layout_button"
+            android:background="@drawable/eight_selector" />
+
+        <ImageButton
+            android:id="@+id/nine"
+            style="@style/key_layout_button"
+            android:background="@drawable/nine_selector" />
+        <ImageButton
+            android:id="@+id/pound"
+             style="@style/key_layout_button"
+            android:background="@drawable/jing_selector" />
+    </com.ls.bt.utils.ButtonGridLayout>
+
+</RelativeLayout>

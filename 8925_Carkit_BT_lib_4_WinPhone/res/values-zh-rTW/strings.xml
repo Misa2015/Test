@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="action_bar_search">查找</string>
+   <string name="unknown_device_name">未知設備名</string>
+    <string name="bt_music_ok">藍牙音樂 OK</string>
+    <string name="bt_music_app_name">藍牙音樂</string>
+    <string name="setting">設置</string>
+    <string name="match">匹配</string>
+    <string name="app_name">藍牙</string>
+    <string name="called">來電</string>
+    <string name="calling">去電</string>
+    <string name="missed_call">未接</string>
+    <string name="setting_machine_name">設備名</string>
+    <string name="setting_pin_name">PIN 碼</string>
+    <string name="setting_machine_name_detail">NWDNWD</string>
+    <string name="setting_pin_name_detail">1234</string>
+    <string name="bt_auto_connect">藍牙自動連接</string>
+    <string name="bt_auto_accept">藍牙自動接聽</string>
+    <string name="match_history_tv">匹配記錄</string>
+    <string name="mapping_device_name">設備名：</string>
+    <string name="mapping_device_password">PIN 碼：</string>
+    <string name="sure">確定</string>
+    <string name="bt_text">已連接到手機，本機正在播放手機音樂使用本機可直接控制手機音樂</string>
+    <string name="companyName">諾威達科技</string>
+    <string name="connect">連接</string>
+    <string name="disconnect">斷開</string>
+    <string name="del">刪除</string>
+    <string name="set_device_name">設置設備名</string>
+    <string name="cancle">取消</string>
+    <string name="set_pin_name">設置PIN碼</string>
+    <string name="connection_successful">連接成功 !!</string>
+    <string name="disconnect_successful">藍牙已斷開連接 !!</string>
+    <string name="num_more_than_max_len">號碼超過最大長度</string>
+    <string name="calling_waiting">正在呼叫…</string>
+    <string name="called_waiting">來電…</string>
+    <string name="dailing">正在通話:</string>
+        <string name="call_log_down_failed">呼叫日誌下載失敗!!</string>
+    <string name="phone_book_down_failed">電話本下載失敗!!</string>
+        <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="incoming_end">End</string>
+    <string name="incoming_dian">Keypad</string>
+    <string name="incoming_lanya">Phone</string>
+    <string name="incoming_speech">Mute</string>
+    <string name="current_vloume">音量  :</string>
+    <string name="return_call">轻触此来返回通话</string>
+</resources>

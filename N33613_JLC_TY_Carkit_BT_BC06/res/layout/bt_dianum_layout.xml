@@ -1,0 +1,222 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        >
+        <ImageView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/list_line"
+	        />
+        
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="48dp"
+	        android:orientation="horizontal"
+	        >
+	        <TextView
+	            android:layout_marginTop="5dp"
+	            android:id="@+id/tv_show_num"
+	            android:layout_width="0dp"
+	            android:layout_weight="8"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:textColor="#FFECECEC"
+	            android:textSize="30sp"
+	             />
+	        <ImageButton
+	            android:background="#00000000"
+	            android:paddingTop="10dip"
+	            android:id="@+id/del_num"
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:src="@drawable/num_del_selector" />
+	    </LinearLayout>
+	    
+	    <ImageView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/list_line"
+	        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/dial_num_key_bg"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="@dimen/dial_num_line_bottom"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/ibt_one"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/one_selector" />
+
+                <ImageButton
+                    android:id="@+id/ibt_two"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/two_selector" />
+
+                <ImageButton
+                    android:id="@+id/ibt_three"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/three_selector" />
+
+                <ImageButton
+                    android:id="@+id/ibt_xing"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/xing_selector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/ibt_four"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/four_selector" />
+
+                <ImageButton
+                    android:id="@+id/ibt_five"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/five_selector" />
+
+                <ImageButton
+                    android:id="@+id/ibt_six"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/six_selector" />
+
+                <ImageButton
+                    android:id="@+id/ibt_zero"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/zero_selector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/ibt_seven"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/seven_selector" />
+
+                <ImageButton
+                    android:id="@+id/ibt_eight"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                     android:layout_gravity="bottom"
+                    android:background="@drawable/eight_selector" />
+
+                <ImageButton
+                    android:id="@+id/ibt_nine"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                     android:layout_gravity="bottom"
+                    android:background="@drawable/nine_selector" />
+
+                <ImageButton
+                    android:id="@+id/ibt_jing"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                     android:layout_gravity="bottom"
+                    android:background="@drawable/jing_selector" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+             android:layout_marginBottom="@dimen/dial_num_line_bottom"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="14dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/call_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:background="@drawable/dia_phone_selector" />
+        </LinearLayout>
+    </LinearLayout>   
+     
+</LinearLayout>

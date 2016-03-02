@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="dial_num_gridlayout"/>
+    <item type="id" name="switch_digit_key"/>
+    <item type="id" name="incoming_name"/>
+    <item type="id" name="incoming_number"/>
+    <item type="id" name="tv_phone_calling"/>
+    <item type="id" name="ibt_off_phone"/>
+    <item type="id" name="ibt_bt_phone"/>
+    <item type="id" name="current_vloume"/>
+    <item type="id" name="mySeekBar"/>
+    <item type="id" name="bt_voice_show"/>
+    <item type="id" name="bt_voice_set"/>
+    <item type="id" name="vertical_seekbar"/>
+    <item type="id" name="volme_text"/>
+    
+</resources>

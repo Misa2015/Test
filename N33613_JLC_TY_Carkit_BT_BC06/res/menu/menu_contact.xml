@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--     <item
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom"
+        android:actionLayout="@layout/actionbar_search_layout"
+        android:title="@string/action_bar_search"/> -->
+       <item
+        android:id="@+id/menu_search"
+        android:showAsAction="ifRoom"
+        android:actionLayout="@layout/actionbar_search_layout"
+        android:title="@string/action_bar_search"/>
+
+</menu><!-- android:actionViewClass="android.widget.SearchView" /> -->

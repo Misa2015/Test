@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_call_detail"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/action_calling"
+                android:icon="@drawable/icon_bochu"
+                android:orderInCategory="6"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/calling"/>
+            <item
+                android:id="@+id/action_called"
+                android:icon="@drawable/icon_laidian"
+                android:orderInCategory="7"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/called"/>
+            <item
+                android:id="@+id/atcion_call_missed"
+                android:icon="@drawable/icon_weijie"
+                android:orderInCategory="7"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/missed_call"/>
+            <!-- match -->
+            <!--
+            <item
+                android:id="@+id/atcion_match"
+                android:icon="@drawable/btn_match_normal"
+                android:orderInCategory="7"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/match"/>
+            <item
+                android:id="@+id/atcion_match_record"
+                android:icon="@drawable/btn_match_record_normal"
+                android:orderInCategory="7"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/match_history_tv"/>
+
+            <item
+                android:id="@+id/atcion_setting"
+                android:icon="@drawable/btn_setting_normal"
+                android:orderInCategory="7"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/setting"/>
+            -->
+        </menu>
+    </item>
+
+</menu>
